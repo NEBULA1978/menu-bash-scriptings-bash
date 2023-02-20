@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Muestra el contenido de una carpeta, preguntando al usuario si desea
+# entrar en una carpeta, leer un archivo, salir del script o retroceder a la
+# carpeta anterior
+function show_content() {
+  current_dir=$1
+
+  # Muestra el contenido de la carpeta actual
+  echo "El contenido de la carpeta $current_dir es:"
